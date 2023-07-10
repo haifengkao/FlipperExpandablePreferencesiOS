@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CBDFE35D5EC70D0A374A69B /* libPods-FlipperExpandablePreferencesiOS_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCB1E31B65F9A3E996DBAB2 /* libPods-FlipperExpandablePreferencesiOS_Tests.a */; };
+		409292CF6DFE542930361AE0 /* libPods-FlipperExpandablePreferencesiOS_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 006C69BF799EEC2D0104979F /* libPods-FlipperExpandablePreferencesiOS_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +22,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6BD63012470622896BAB2D8F /* Pods_FlipperExpandablePreferencesiOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9D6C31E0A59BCD737B8020 /* Pods_FlipperExpandablePreferencesiOS_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CA00C720E62ED001FD432116 /* Pods_FlipperExpandablePreferencesiOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B7F172DAF6615D30933940 /* Pods_FlipperExpandablePreferencesiOS_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		090A77AE8C012CE713CBCACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		006C69BF799EEC2D0104979F /* libPods-FlipperExpandablePreferencesiOS_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipperExpandablePreferencesiOS_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		090A77AE8C012CE713CBCACD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2CF62AC60F63C386A806F984 /* Pods-FlipperExpandablePreferencesiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperExpandablePreferencesiOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-FlipperExpandablePreferencesiOS_Tests/Pods-FlipperExpandablePreferencesiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FlipperExpandablePreferencesiOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipperExpandablePreferencesiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D77F398EB5758C92BD50C34 /* Pods-FlipperExpandablePreferencesiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperExpandablePreferencesiOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FlipperExpandablePreferencesiOS_Tests/Pods-FlipperExpandablePreferencesiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F95146958653252DD29666A /* Pods-FlipperExpandablePreferencesiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipperExpandablePreferencesiOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-FlipperExpandablePreferencesiOS_Example/Pods-FlipperExpandablePreferencesiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C020016DA4745AEF72BB8C45 /* FlipperExpandablePreferencesiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FlipperExpandablePreferencesiOS.podspec; path = ../FlipperExpandablePreferencesiOS.podspec; sourceTree = "<group>"; };
-		CD9D6C31E0A59BCD737B8020 /* Pods_FlipperExpandablePreferencesiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipperExpandablePreferencesiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8B7F172DAF6615D30933940 /* Pods_FlipperExpandablePreferencesiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipperExpandablePreferencesiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC3B9906DAA3B2F1CC791C24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BFCB1E31B65F9A3E996DBAB2 /* libPods-FlipperExpandablePreferencesiOS_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipperExpandablePreferencesiOS_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C020016DA4745AEF72BB8C45 /* FlipperExpandablePreferencesiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FlipperExpandablePreferencesiOS.podspec; path = ../FlipperExpandablePreferencesiOS.podspec; sourceTree = "<group>"; };
+		FC3B9906DAA3B2F1CC791C24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				CA00C720E62ED001FD432116 /* Pods_FlipperExpandablePreferencesiOS_Example.framework in Frameworks */,
+				409292CF6DFE542930361AE0 /* libPods-FlipperExpandablePreferencesiOS_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				6BD63012470622896BAB2D8F /* Pods_FlipperExpandablePreferencesiOS_Tests.framework in Frameworks */,
+				3CBDFE35D5EC70D0A374A69B /* libPods-FlipperExpandablePreferencesiOS_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E8B7F172DAF6615D30933940 /* Pods_FlipperExpandablePreferencesiOS_Example.framework */,
-				CD9D6C31E0A59BCD737B8020 /* Pods_FlipperExpandablePreferencesiOS_Tests.framework */,
+				006C69BF799EEC2D0104979F /* libPods-FlipperExpandablePreferencesiOS_Example.a */,
+				BFCB1E31B65F9A3E996DBAB2 /* libPods-FlipperExpandablePreferencesiOS_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				9D77F398EB5758C92BD50C34 /* Pods-FlipperExpandablePreferencesiOS_Tests.debug.xcconfig */,
 				2CF62AC60F63C386A806F984 /* Pods-FlipperExpandablePreferencesiOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				2EE89F796736DEA79D54ECEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,6 +296,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2EE89F796736DEA79D54ECEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlipperExpandablePreferencesiOS_Tests/Pods-FlipperExpandablePreferencesiOS_Tests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-Glog/glog.framework/glog",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlipperExpandablePreferencesiOS_Tests/Pods-FlipperExpandablePreferencesiOS_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		63BABADB6E156F34F128701D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,11 +325,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FlipperExpandablePreferencesiOS_Example/Pods-FlipperExpandablePreferencesiOS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FlipperExpandablePreferencesiOS/FlipperExpandablePreferencesiOS.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-Glog/glog.framework/glog",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlipperExpandablePreferencesiOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -449,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

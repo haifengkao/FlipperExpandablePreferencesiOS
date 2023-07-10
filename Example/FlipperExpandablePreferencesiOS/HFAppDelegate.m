@@ -8,10 +8,22 @@
 
 #import "HFAppDelegate.h"
 
+@import FlipperKit;
+@import FlipperExpandablePreferencesiOS;
+
 @implementation HFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    FlipperClient* client = [FlipperClient sharedClient];
+    [client addPlugin:[[FKExpandableUserDefaultsPlugin alloc] init]];
+    // Add all sorts of other amazing plugins here ...
+
+    [client start];
+
+
+    
     // Override point for customization after application launch.
     return YES;
 }
