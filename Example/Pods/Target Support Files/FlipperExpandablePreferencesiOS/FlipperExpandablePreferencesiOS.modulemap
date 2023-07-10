@@ -1,0 +1,6 @@
+framework module FlipperExpandablePreferencesiOS {
+  umbrella header "FlipperExpandablePreferencesiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_FlipperExpandablePreferencesiOS_Example {
+  umbrella header "Pods-FlipperExpandablePreferencesiOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

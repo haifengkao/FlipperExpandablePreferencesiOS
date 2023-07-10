@@ -1,0 +1,16 @@
+PODS:
+  - FlipperExpandablePreferencesiOS (0.1.0)
+
+DEPENDENCIES:
+  - FlipperExpandablePreferencesiOS (from `../`)
+
+EXTERNAL SOURCES:
+  FlipperExpandablePreferencesiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlipperExpandablePreferencesiOS: f107a86c04700bf098047a96d5bd3ae1125694dc
+
+PODFILE CHECKSUM: aed357aebdadab5dcc82a2bdcb463880f5d70e3f
+
+COCOAPODS: 1.12.1

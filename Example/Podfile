@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FlipperExpandablePreferencesiOS_Example' do
+  pod 'FlipperExpandablePreferencesiOS', :path => '../'
+
+  target 'FlipperExpandablePreferencesiOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
