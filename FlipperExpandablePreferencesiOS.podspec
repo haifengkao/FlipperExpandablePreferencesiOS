@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FlipperExpandablePreferencesiOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FlipperExpandablePreferencesiOS.'
+  s.summary          = 'The iOS plugin for FlipperKit to show expandable preferences.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  a plugin for FlipperKit to show expandable preferences. install this pod along with the flipper desktop plugin "haifengkao/flipper-plugin-expandablepreferences"
                        DESC
 
-  s.homepage         = 'https://github.com/Hai Feng Kao/FlipperExpandablePreferencesiOS'
+  s.homepage         = 'https://github.com/HaiFengKao/FlipperExpandablePreferencesiOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hai Feng Kao' => 'haifeng@cocoaspice.in' }
-  s.source           = { :git => 'https://github.com/Hai Feng Kao/FlipperExpandablePreferencesiOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HaiFengKao/FlipperExpandablePreferencesiOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
