@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlipperExpandablePreferencesiOS'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'The iOS plugin for FlipperKit to show expandable preferences.'
 
 # This description is used to generate tags and improve search results.
@@ -37,11 +37,14 @@ Pod::Spec.new do |s|
   # }
 
   s.swift_version = '5.0'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'FlipperExpandablePreferencesiOS/Classes/FKExpandableUserDefaultsPlugin.h'
   s.xcconfig = {
        'CLANG_CXX_LIBRARY' => 'libc++'
   }
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'FlipperKit'
+
+  # shutup target has transitive dependencies that include statically linked binaries: (Flipper-Boost-iOSX and FlipperKit)) during validation.
+  s.static_framework = true
 end
